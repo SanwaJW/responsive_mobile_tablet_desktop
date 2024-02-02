@@ -25,7 +25,7 @@ class TabletBody extends StatelessWidget {
               itemCount: 5,
               itemBuilder: (context, index) {
                 return Container(
-                  color: const Color.fromARGB(255, 250, 166, 39),
+                  color: Colors.orange,
                   margin: EdgeInsets.all(20),
                   height: 100,
                 );
