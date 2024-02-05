@@ -10,7 +10,7 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // final currentWidth = MediaQuery.of(context).size.width;
-    return Scaffold(
+    return const Scaffold(
         body: ResponsiveLayout(
       desktopBody: DesktopBody(),
       tabletBody: TabletBody(),
